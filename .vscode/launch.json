@@ -3,5 +3,13 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "merge_strings_alternately",
+            "request": "launch",
+            "mainClass": "merge_strings_alternately",
+            "projectName": "LeetCode75_d71a6d00"
+        }
+    ]
 }

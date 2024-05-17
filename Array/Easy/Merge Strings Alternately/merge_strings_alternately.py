@@ -1,18 +1,15 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        ptr1 = ptr2 = 0
+        ptr = 0
         result = ""
-        while ptr1 < len(word1) and ptr2 < len(word2):
-            result += word1[ptr1]
-            result += word2[ptr2]
-            ptr1 += 1
-            ptr2 += 1
-        if ptr1 != len(word1):
-            result += word1[ptr1:]
-        else:
-            result += word2[ptr2:]
+        while ptr < len(word1) or ptr < len(word2):
+            if ptr<len(word1):
+                result += word1[ptr]
+            if ptr<len(word2):
+                result += word2[ptr]
+            ptr += 1
         
-        return result
+        return result     
     
 solution_class = Solution()
 word1 = input("Enter word 1: ")

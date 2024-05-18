@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GCD_of_Strings",
+            "request": "launch",
+            "mainClass": "GCD_of_Strings",
+            "projectName": "LeetCode75_d71a6d00"
+        },
+        {
+            "type": "java",
             "name": "product_of_array_except_self",
             "request": "launch",
             "mainClass": "product_of_array_except_self",

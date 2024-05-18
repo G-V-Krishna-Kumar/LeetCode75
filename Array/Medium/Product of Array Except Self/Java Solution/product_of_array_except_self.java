@@ -3,23 +3,23 @@ import java.util.Scanner;
 public class product_of_array_except_self {
     public static void main(String[] args) {
         Solution solution_class = new Solution();
-        Scanner scanner = new Scanner(System.in);
-        int n, i;
-        System.out.print("Enter length of array nums: ");
-        n = scanner.nextInt();
+        try (Scanner scanner = new Scanner(System.in)) {
+            int n, i;
+            System.out.print("Enter length of array nums: ");
+            n = scanner.nextInt();
 
-        int[] nums = new int[n];
-        int[] answer = new int[n];
+            int[] nums = new int[n];
+            int[] answer = new int[n];
+            for (i=0; i<n; i++) {
+                System.out.print("Enter element nums[" + i + "]: ");
+                nums[i] = scanner.nextInt();
+            }
 
-        for (i=0; i<n; i++) {
-            System.out.print("Enter element nums[" + i + "]: ");
-            nums[i] = scanner.nextInt();
-        }
-
-        scanner.close();
-        answer = solution_class.prodExceptSelf(nums);
-        for (i=0; i<n; i++) {
-            System.out.print(answer[i] + " ");
+            
+            answer = solution_class.prodExceptSelf(nums);
+            for (i=0; i<n; i++) {
+                System.out.print(answer[i] + " ");
+            }
         }
     }
 }

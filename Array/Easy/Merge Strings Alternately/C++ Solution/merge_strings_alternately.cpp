@@ -20,9 +20,9 @@ class Solution {
 
             return result;
         }
-    };
+};
 
-    int main() {
+int main() {
         Solution solution_class;
         string word1, word2;
         cout << "Enter word 1: ";

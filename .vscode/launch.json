@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GreatestNumberOfCandies",
+            "request": "launch",
+            "mainClass": "GreatestNumberOfCandies",
+            "projectName": "LeetCode75_d71a6d00"
+        },
+        {
+            "type": "java",
+            "name": "greatest_number_of_candies",
+            "request": "launch",
+            "mainClass": "greatest_number_of_candies",
+            "projectName": "LeetCode75_d71a6d00"
+        },
+        {
+            "type": "java",
             "name": "GCD_of_Strings",
             "request": "launch",
             "mainClass": "GCD_of_Strings",

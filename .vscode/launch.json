@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "product_of_array_except_self",
+            "request": "launch",
+            "mainClass": "product_of_array_except_self",
+            "projectName": "LeetCode75_d71a6d00"
+        },
+        {
+            "type": "java",
             "name": "merge_strings_alternately",
             "request": "launch",
             "mainClass": "merge_strings_alternately",

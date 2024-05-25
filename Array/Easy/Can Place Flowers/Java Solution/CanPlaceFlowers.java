@@ -44,8 +44,5 @@ class CanPlaceFlowers {
         scanner.close();
 
         System.out.println(result);
-
-        
-
     }
 }

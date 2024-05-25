@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CanPlaceFlowers",
+            "request": "launch",
+            "mainClass": "CanPlaceFlowers",
+            "projectName": "LeetCode75_d71a6d00"
+        },
+        {
+            "type": "java",
             "name": "GreatestNumberOfCandies",
             "request": "launch",
             "mainClass": "GreatestNumberOfCandies",
